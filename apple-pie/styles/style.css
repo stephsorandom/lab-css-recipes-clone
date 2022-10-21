@@ -1,64 +1,50 @@
-img {
-    width: auto;
-    height: 600px;
-
+#background {
+  width: 100%;
+  display: flex;
+  margin: auto;
 }
 
-/*Container for image and text */
+#pieImg {
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
-    position: relative;
-    text-align: center;
-    color: white;
+  position: relative;
+  bottom: auto;
+  left: auto;
 }
 
 .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-p {
-    text-align: justify;
-    font-weight: normal;
-    font-family: Arial, Helvetica, sans-serif;
+#headerText {
+  font-size: x-large;
+  color: #ffffff;
 }
 
-h5 {
-    text-align: center;
-    margin: 80px;
-    margin-left: 20%;
-    
+.body {
+  margin: auto;
 }
 
-#pic {
-    width: 200px;
-    height: 50px;
+#part1 {
+  size: 50%;
+  text-align: center;
+  font-weight: 100;
 }
 
-#pics {
-    width: 300px;
-    height: 50px;
-}
-hr.solid {
-    border-top: 3px solid grey;
-    width: 700px;
+#recipeInfo {
+  margin: auto;
+  width: 30%;
+  display: block;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-h1 {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 80px;
-    text-align: center;
-}
-.about {
-    flex-wrap: wrap;
-    justify-content: center;
-
+#cookingInfo {
+  margin: auto;
+  width: 28%;
+  display: block;
 }
